@@ -1,0 +1,503 @@
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:51 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+5
+number: D1234, name: John Doe
+starting Balance: $6000.00, current Balance: $6000.00
+type: GIC 
+annual Interest Rate: 1.5%
+period of Investment: 2
+new Balance at Maturirty: 6181.35
+
+number: E5678, name: John Doe
+starting Balance: $15000.00, current Balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.00
+
+number: F9801, name: John Doe
+starting Balance: $8000.00, current Balance: $8000.00
+type: SAVINGS 
+annual interest rate: 0.15%
+
+number: A1234, name: Mary Ryan
+starting Balance: $15000.00, current Balance: $15000.00
+type: GIC 
+annual Interest Rate: 2.5%
+period of Investment: 4
+new Balance at Maturirty: 16557.19
+
+number: B5678, name: Mary Ryan
+starting Balance: $15000.00, current Balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.00
+
+number: C9012, name: Mary Ryan
+starting Balance: $8000.00, current Balance: $8000.00
+type: SAVINGS 
+annual interest rate: 0.15%
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:51 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+1
+
+Please enter information(e.g. account type, name,
+account number, balance, interest rate ) at one line:
+SAV, John Doe, A1234, 1000.00, 3.6
+
+*** FAILED: ACCOUNT CANNOT BE OPENED! ***
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:51 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+1
+
+Please enter information(e.g. account type, name,
+account number, balance, interest rate ) at one line:
+SAV, Ehsan Ekbatani, E1212, 1500.00, 2.4
+
++ Account Opened:
+number: E1212, name: Ehsan Ekbatani
+starting Balance: $1500.00, current Balance: $1500.00
+type: SAVINGS 
+annual interest rate: 2.4%
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:52 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+5
+number: D1234, name: John Doe
+starting Balance: $6000.00, current Balance: $6000.00
+type: GIC 
+annual Interest Rate: 1.5%
+period of Investment: 2
+new Balance at Maturirty: 6181.35
+
+number: E5678, name: John Doe
+starting Balance: $15000.00, current Balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.00
+
+number: F9801, name: John Doe
+starting Balance: $8000.00, current Balance: $8000.00
+type: SAVINGS 
+annual interest rate: 0.15%
+
+number: A1234, name: Mary Ryan
+starting Balance: $15000.00, current Balance: $15000.00
+type: GIC 
+annual Interest Rate: 2.5%
+period of Investment: 4
+new Balance at Maturirty: 16557.19
+
+number: B5678, name: Mary Ryan
+starting Balance: $15000.00, current Balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.00
+
+number: C9012, name: Mary Ryan
+starting Balance: $8000.00, current Balance: $8000.00
+type: SAVINGS 
+annual interest rate: 0.15%
+
+number: E1212, name: Ehsan Ekbatani
+starting Balance: $1500.00, current Balance: $1500.00
+type: SAVINGS 
+annual interest rate: 2.4%
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:52 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+2
+Please enter account number:
+E1212
+
++ Account Closed:
+number: E1212, name: Ehsan Ekbatani
+starting Balance: $1500.00, current Balance: $1500.00
+type: SAVINGS 
+annual interest rate: 2.4%
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:52 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+4
+a. Search by account balance. 
+b. Search by account name. 
+c. Search by account number
+a
+Please enter the balance on the account (e.g. 1500):
+15000.00
+
++ Account(s) Retrieved:
+number: E5678, name: John Doe
+starting Balance: $15000.00, current Balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.00
+
+number: A1234, name: Mary Ryan
+starting Balance: $15000.00, current Balance: $15000.00
+type: GIC 
+annual Interest Rate: 2.5%
+period of Investment: 4
+new Balance at Maturirty: 16557.19
+
+number: B5678, name: Mary Ryan
+starting Balance: $15000.00, current Balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.00
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:52 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+4
+a. Search by account balance. 
+b. Search by account name. 
+c. Search by account number
+b
+Please enter the name on the account (e.g. John Doe):
+Mary Ryan
+
++ Account(s) Retrieved:
+number: A1234, name: Mary Ryan
+starting Balance: $15000.00, current Balance: $15000.00
+type: GIC 
+annual Interest Rate: 2.5%
+period of Investment: 4
+new Balance at Maturirty: 16557.19
+
+number: B5678, name: Mary Ryan
+starting Balance: $15000.00, current Balance: $15000.00
+type: CHEQUING
+service charge: $0.75
+number of transactions: 0
+total amount of service charge: $0.00
+
+number: C9012, name: Mary Ryan
+starting Balance: $8000.00, current Balance: $8000.00
+type: SAVINGS 
+annual interest rate: 0.15%
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:53 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+4
+a. Search by account balance. 
+b. Search by account name. 
+c. Search by account number
+c
+Please enter the account number (e.g. A1234):
+D1234
+
++ Account Retrieved:
+number: D1234, name: John Doe
+starting Balance: $6000.00, current Balance: $6000.00
+type: GIC 
+annual Interest Rate: 1.5%
+period of Investment: 2
+new Balance at Maturirty: 6181.35
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:53 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+4
+a. Search by account balance. 
+b. Search by account name. 
+c. Search by account number
+a
+Please enter the balance on the account (e.g. 1500):
+-1
+
+*** FAILED: ACCOUNT CANNOT BE RETRIEVED! ***
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:53 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+3
+a. Deposit Money. 
+b. Withdraw Money.
+a
+Please enter the account number and a amount (e.g. A1234, 1500): 
+E5678, 512.67
+
++ Account Updated:
+number: E5678, name: John Doe
+starting Balance: $15000.00, current Balance: $15512.67
+type: CHEQUING
+service charge: $0.75
+number of transactions: 1
+total amount of service charge: $0.00
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:54 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+3
+a. Deposit Money. 
+b. Withdraw Money.
+a
+Please enter the account number and a amount (e.g. A1234, 1500): 
+C9012, 512.67
+
++ Account Updated:
+number: C9012, name: Mary Ryan
+starting Balance: $8000.00, current Balance: $8512.67
+type: SAVINGS 
+annual interest rate: 0.15%
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:54 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+3
+a. Deposit Money. 
+b. Withdraw Money.
+b
+Please enter the account number and an amount (e.g. A1234, 1500):
+F9801, 100.00
+
++ Account Updated:
+number: F9801, name: John Doe
+starting Balance: $8000.00, current Balance: $7900.00
+type: SAVINGS 
+annual interest rate: 0.15%
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:54 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+3
+a. Deposit Money. 
+b. Withdraw Money.
+b
+Please enter the account number and an amount (e.g. A1234, 1500):
+B5678, 100.00
+
++ Account Updated:
+number: B5678, name: Mary Ryan
+starting Balance: $15000.00, current Balance: $14899.25
+type: CHEQUING
+service charge: $0.75
+number of transactions: 1
+total amount of service charge: $0.00
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:54 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+3
+a. Deposit Money. 
+b. Withdraw Money.
+a
+Please enter the account number and a amount (e.g. A1234, 1500): 
+C9012, -123
+
+*** FAILED: ACCOUNT CANNOT BE UPDATED! ***
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:55 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+3
+a. Deposit Money. 
+b. Withdraw Money.
+a
+Please enter the account number and a amount (e.g. A1234, 1500): 
+A1234, 2222
+
+*** FAILED: ACCOUNT CANNOT BE UPDATED! ***
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:55 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+3
+a. Deposit Money. 
+b. Withdraw Money.
+b
+Please enter the account number and an amount (e.g. A1234, 1500):
+F9801, 56789
+
+*** FAILED: ACCOUNT CANNOT BE UPDATED! ***
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:55 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+5
+number: D1234, name: John Doe
+starting Balance: $6000.00, current Balance: $6000.00
+type: GIC 
+annual Interest Rate: 1.5%
+period of Investment: 2
+new Balance at Maturirty: 6181.35
+
+number: E5678, name: John Doe
+starting Balance: $15000.00, current Balance: $15512.67
+type: CHEQUING
+service charge: $0.75
+number of transactions: 1
+total amount of service charge: $0.00
+
+number: F9801, name: John Doe
+starting Balance: $8000.00, current Balance: $7900.00
+type: SAVINGS 
+annual interest rate: 0.15%
+
+number: A1234, name: Mary Ryan
+starting Balance: $15000.00, current Balance: $15000.00
+type: GIC 
+annual Interest Rate: 2.5%
+period of Investment: 4
+new Balance at Maturirty: 16557.19
+
+number: B5678, name: Mary Ryan
+starting Balance: $15000.00, current Balance: $14899.25
+type: CHEQUING
+service charge: $0.75
+number of transactions: 1
+total amount of service charge: $0.00
+
+number: C9012, name: Mary Ryan
+starting Balance: $8000.00, current Balance: $8512.67
+type: SAVINGS 
+annual interest rate: 0.15%
+
+### Welcome to the Bank of Ehsan Ekbatani ###
+02:55 AM March 4, 2018
+1. Open an account.
+2. Close an account.
+3. Update an Account.
+4. Search.
+5. List all accounts.
+6. Exit
+
+Please enter your choice: 
+6
+
+Thank you!
+
