@@ -2,7 +2,7 @@
 A console banking application that simulates financial operations utilizing Java's complex data types,  jUnit suite for testing, and RMI to simulate a client banking remotely.
 
 
-##Author: Ehsan Ekbatani    Username: EEKBATANI
+## Author: Ehsan Ekbatani    Username: EEKBATANI
 ##Banking Applictaion and Command-Line Instructions
 
 ________________________________________________________________________
@@ -15,7 +15,7 @@ All the instructions were followed correctly and includes utilization of BigDeci
 *a screenshot proving command line functionality of these commands is included in the root directory
 
 
-####COMMAND LINE INSTRUCTIONS
+#### COMMAND LINE INSTRUCTIONS
 
 
 --Extract JAR file: 
