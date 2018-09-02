@@ -1,5 +1,7 @@
 # Banking-App
-A console banking application that simulates financial operations utilizing Java's complex data types,  jUnit suite for testing, and RMI to simulate a client banking remotely.
+>A console banking application that simulates financial operations utilizing Java's complex data types, a comprehensive
+                                        jUnit testing suite, and RMI to simulate a client banking remotely. This project was designed to excercise nad demonstrate high level object oriented programming
+                                        by throughly employing combinations of encapsualtion, inheritance and polymorphism.
 
 
 ## Author: Ehsan Ekbatani 
